@@ -1,0 +1,9 @@
+applications:
+- host: iot-patient-biren-1091
+  disk: 128M
+  name: iot-patient-biren-1091
+  command: node app.js
+  path: .
+  domain: mybluemix.net
+  memory: 128M
+  instances: 1
